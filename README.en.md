@@ -1,5 +1,7 @@
 # shooter-subtitle-downloader
 
+[中文版文档](https://github.com/seth-yang/shooter-subtitle-downloader)
+
 A java library (known as .jar) downloads subtitles from shooter automatically.
 
 - About artifact `dreamwork-base` in pom.xml:
