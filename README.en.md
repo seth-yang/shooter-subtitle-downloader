@@ -2,11 +2,11 @@
 
 A java library (known as .jar) downloads subtitles from shooter automatically.
 
-- About artifact `dreamwork-base` dependency:
+- About artifact `dreamwork-base` in pom.xml:
 
   'Cause I do not own the `dreamwork.org` domain, I cannot upload the artifacts which with group's id
   `org.dreamwork` to Maven Central Repository, but you can clone the source from
-  [https://gitee.com/seth_yang/dreamwork-base.git]
+  [https://gitee.com/seth_yang/dreamwork-base.git], and build it yourself
 
 Quick Start:
 ```java
