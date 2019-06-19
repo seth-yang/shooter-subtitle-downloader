@@ -134,6 +134,8 @@ public class ShooterDownloader {
                     Files.createDirectories (path);
                 } catch (IOException ex) {
                     logger.warn ("can't create directory {}", path.toString ());
+                    
+                    path = null;
                 }
             }
         }
@@ -285,13 +287,5 @@ public class ShooterDownloader {
 
             return tmp;
         }
-    }
-
-    public static void main (String[] args) throws IOException, NoSuchAlgorithmException {
-//        System.setProperty (KEY_DIR, "d:/tmp/");
-        String file = "d:/test/Frozen.2013.1080p.BluRay.DTS-HD.MA.7.1.x264-PublicHD/Frozen.2013.1080p.BluRay.DTS-HD.MA.7.1.x264-PublicHD.mkv";
-        ShooterDownloader downloader = new ShooterDownloader ();
-        downloader.addSubtitlesDownloadListener (System.err::println);
-        downloader.download (file);
     }
 }
