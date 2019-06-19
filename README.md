@@ -1,6 +1,6 @@
 # shooter-subtitle-downloader
 
-[English README] (https://github.com/seth-yang/shooter-subtitle-downloader/blob/master/README.en.md)
+[English README](https://github.com/seth-yang/shooter-subtitle-downloader/blob/master/README.en.md)
 
 这是一个从射手网中文字幕下载工具。
 
