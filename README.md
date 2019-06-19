@@ -4,7 +4,7 @@
 
 - 关于 pom 文件中的对 `dreamwork-base` 库的引用
   由于本人无 `dreamwork.org` 域名的所有权，无法将 `org.dreamwork.*` 的包上传到 Maven Central Repository，
-  但是可以在 [https://gitee.com/seth_yang/shooter-subtitle-downloader/tree/master](这里)获取到源代码
+  但是可以在 [这里](https://gitee.com/seth_yang/dreamwork-base.git) 获取到源代码
 
 简单上手：
 ```java
