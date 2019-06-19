@@ -1,5 +1,7 @@
 # shooter-subtitle-downloader
 
+[English README] (https://github.com/seth-yang/shooter-subtitle-downloader/blob/master/README.en.md)
+
 这是一个从射手网中文字幕下载工具。
 
 - 关于 pom 文件中的对 `dreamwork-base` 库的引用
